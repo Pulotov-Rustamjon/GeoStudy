@@ -1,0 +1,666 @@
+<html lang="en">
+    <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoStudy</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="favicon/Снимок_экрана_2025-01-23_193906-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"> <g id="SVGRepo_bgCarrier" stroke-width="0"></g> <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>         <g id="SVGRepo_iconCarrier">               <path style="fill:#654B33;"                   d="M59.376,210.429c-4.09,0-7.598-3.092-8.031-7.248c-7.302-70.2,17.101-139.053,66.953-188.907 c3.158-3.156,8.276-3.156,11.433,0c3.157,3.158,3.157,8.276,0,11.433c-46.391,46.392-69.1,110.469-62.304,175.8 c0.462,4.441-2.764,8.416-7.205,8.877C59.939,210.413,59.655,210.429,59.376,210.429z">  </path><circle style="fill:#00ABE7;" cx="282.976" cy="178.949" r="178.949"></circle>  <g><path style="fill:#00BA64;"     d="M316.981,192.318c0,14.972-12.138,27.109-27.109,27.109h-92.278 c-14.972,0-27.109,12.137-27.109,27.109c0,14.983,12.138,27.12,27.109,27.12h7.265c8.504,0,15.392,6.888,15.392,15.403 c0,8.504-6.888,15.392-15.392,15.392h-49.422c-29.06-29.524-47.945-69.093-50.973-113.028h2.727c0.906,0,1.811-0.043,2.695-0.13 c6.414-0.636,12.17-3.492,16.481-7.815c4.915-4.905,7.944-11.684,7.944-19.166c0-14.401-11.232-26.139-25.395-27.034 c7.675-32.196,24.059-61.02,46.522-83.838h126.588c17.268,0,31.27,14.002,31.27,31.27c0,17.258-14.002,31.259-31.27,31.259h-54.229 c-13.604,0-24.619,11.027-24.619,24.619s11.016,24.608,24.619,24.608h62.075C304.844,165.198,316.981,177.335,316.981,192.318z">    </path>  <path style="fill:#00BA64;"   d="M461.915,178.952c0,57.98-27.583,109.525-70.344,142.217c-4.506-5.767-11.512-9.496-19.402-9.496 h-62.087c-14.972,0-27.109-12.136-27.109-27.119c0-14.972,12.138-27.109,27.109-27.109h92.279 c14.983,0,27.119-12.138,27.119-27.109c0-14.983-12.138-27.119-27.119-27.119h-7.255c-8.504,0-15.403-6.888-15.403-15.392 c0-8.515,6.898-15.403,15.403-15.403h66.678C461.871,174.587,461.915,176.764,461.915,178.952z">  </path></g><path style="fill:#654B33;"  d="M447.646,332.188l-45.154-45.154c-3.158-3.156-8.276-3.156-11.433,0 c-3.157,3.158-3.157,8.276,0,11.433l39.333,39.332c-84.876,78.845-218.074,76.973-300.659-5.611 c-26.105-26.106-45.198-58.554-55.217-93.839c-1.221-4.296-5.697-6.789-9.985-5.568c-4.295,1.219-6.789,5.691-5.568,9.985 c10.771,37.931,31.289,72.805,59.337,100.855c39.199,39.199,89.916,62.686,144.516,67.337v29.88c0,4.465,3.618,8.084,8.084,8.084 s8.084-3.62,8.084-8.084v-29.055c1.329,0.022,2.657,0.049,3.989,0.049c62.205,0,120.688-24.224,164.674-68.21 C450.803,340.463,450.803,335.345,447.646,332.188z"> </path>  <path style="fill:#A07852;"           d="M311.3,454.936v32.693h-80.809v-32.693c0-7.793,6.316-14.099,14.099-14.099h52.623 C304.994,440.837,311.3,447.143,311.3,454.936z"> </path>           <rect x="230.491" y="459.724" style="fill:#896746;" width="80.812" height="27.907"></rect>  <path style="fill:#A07852;" d="M403.941,512H137.855c-2.262,0-4.096-1.834-4.096-4.096v-9.826c0-11.189,9.071-20.26,20.26-20.26 h233.758c11.189,0,20.26,9.071,20.26,20.26v9.826C408.037,510.166,406.203,512,403.941,512z"> </path><path style="fill:#009AE5;"  d="M282.972,324.699c-93.232,0-169.799-71.303-178.175-162.349c-0.503,5.467-0.773,11.001-0.773,16.598 c0,98.83,80.118,178.947,178.947,178.947s178.947-80.118,178.947-178.947c0-5.598-0.271-11.131-0.773-16.598 C452.771,253.396,376.204,324.699,282.972,324.699z">  </path> <g><path style="fill:#00A553;"          d="M200.224,304.451h-44.786c-29.06-29.524-47.945-69.093-50.973-113.028h2.727 c0.906,0,1.811-0.043,2.695-0.13C122.787,240.478,156.105,281.395,200.224,304.451z">          </path>           <path style="fill:#00A553;"               d="M461.915,178.952c0,57.98-27.583,109.525-70.344,142.217c-4.506-5.767-11.512-9.496-19.402-9.496 h-22.064c57.646-23.347,100.362-75.873,109.826-139.254h1.854C461.871,174.587,461.915,176.764,461.915,178.952z">    </path>      </g>            </g></svg>GeoStudy</a></div>
+            <div class="menu"><i class="fas fa-bars"></i></div>
+            <ol>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#wikipedia">Разделы</a></li>
+                <li><a href="#news_block">Новости</a></li>    
+                <li><a href="#faqs">Вопросы и Ответы</a></li>
+            </ol>
+            <div class="social">
+                <a href="https://www.instagram.com/_rustamjon_47_04_?igsh=NTMxaTRvM3MwZ2V3" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/ItRunTJ?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://t.me/call_center_tj_bot" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://wa.me/qr/Y7DGH6PERLAIG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </nav>
+        <br><br><br><br><br>
+        <div class="header">
+            <h1>Откройте Мир:  <br>Все О Нашей Планете</h1>
+            <p>
+                Читайте новости и исследуйте мир с помощью карт и фактов<br> о Земле, 
+                её экосистемах и изменениях
+            </p>
+            <form action="#">
+                <input type="text" placeholder="Поиск по сайту" />
+                <button><i class="ri-search-line"></i></button>
+            </form>
+        </div>
+    </header>
+    <article>
+        <div id="intro">
+            <div class="col-6 col-s-12 intro-image">
+                <img src="img/istockphoto-1329895990-612x612.jpg" alt="">
+            </div>
+            <div class="col-6 col-s-12 description">
+                <h2>Гид по сайту</h2>
+                <p>Мы создали этот сайт для всех, кто любит исследовать мир вокруг себя. Здесь вы найдете подробную информацию о географических особенностях различных континентов, странах, известных достопримечательностях и природных чудесах, которые стоит увидеть хотя бы раз в жизни.
+                </p>
+                <p>Наши статьи помогут вам не только расширить свои знания о географии, но и выбрать лучшие маршруты для путешествий, понять историю и культуру различных уголков мира. </p>
+                <div class="description">
+                    <div class="left">
+                        <div><i class="fa fa-globe" style="color: rgb(11, 198, 255);"></i> <a href="./categories/continents/index.html">Континенты</a></div>
+                        <div><i class="fa-solid fa-flag" style="color: rgb(65, 42, 165);"></i> <a href="./categories/countries/index.html">Страны</a> </div>
+                        <div><i class="fa fa-link" style="color: #00ABE7;"></i> <a href="#sources">Полезные ресурсы</a></div>
+                        <div><i class="fa-solid fa-question" style="color: #52a065;"></i> <a href="#faq">Вопросы и ответы</a></div>
+                    </div>
+                    <div class="right">
+                        <div><i class="fa fa-lightbulb" style="color: rgb(255, 204, 0);"></i> <a href="#facts">Факты дня</a></div>
+                        <div><i class="fa fa-compass" style="color: rgb(140, 0, 255);"></i><a href="#vocabularies"> Словарь</a></div>
+                        <div><i class="fa fa-mountain" style="color: #cd6918;"></i> <a href="./categories/tourism_and_travel/index.html">Туризм</a></div>
+                        <div><i class="fa fa-arrow-right" style="color: #ef0000;"></i> <a href="./categories/geo-facts/index.html">     Гео - факты</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="blocks">
+            <div class="col-3 col-s-6">
+                <a href="#founder">
+                    <div class="block"><i class="fa fa-globe-americas" style="color: #009AE5;"></i>
+                        <h2>Карта Мира</h2>
+                        <p>Откройте интерактивные карты стран и континентов. Узнайте больше о каждой территории</p>
+                    </div> 
+                </a>
+            </div>
+            <div class="col-3 col-s-6">
+                <a href="#vocabularies">
+                    <div class="block">
+                        <i class="fa fa-book" style="color: rgb(200, 0, 255);"></i>
+                        <h2>Словарь терминов</h2>
+                        <p>Основные географичкские термины и понятия которых стоит знать</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3 col-s-6">
+                <a href="#facts">
+                    <div class="block">
+                        <i class="fa fa-calendar" style="color: rgb(255, 102, 0);"></i>
+                        <h2>Ежедневные факты</h2>
+                        <p>Каждый день узнайте новые факты о мире, которые расширят ваши горизонты</p>
+                    </div>
+                </a>
+            </div>  
+            <div class="col-3 col-s-6">
+                <a href="#sources">
+                    <div class="block">
+                    <i class="fa fa-3x fa-graduation-cap text-primary mb-4" style="color: rgb(59, 65, 186);"></i>
+                    <h2>Полезные ресурсы</h2>
+                    <p>Полезные онлайн ресурсы которые помогут вам лучше понять географию</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="subject">
+            <h2>Что такое география и зачем она нужна?</h2>
+            <p>География - это наука, изучающая поверхность Земли, её природные процессы климат, ландшафты, а также взаимодействие человека с окружающей средой.
+                География даёт понять  как различные природные явления и человеческая деятельность влияют на землю и её экосистемы.
+            </p>
+            <h3>Изучение Географии делится на 4 части:</h3  >
+            <div class="blocks">
+                <div class=" col-3 col-s-6">
+                    <div class="block">
+                        <img src="img/natureg.jpg" alt="">
+                        <div class="description">
+                            <h3>Физическая география</h3>
+                            <p>Изучает природные процессы и явления, такие как горообразование, климатические изменения, гидрология, почвы и растительность</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col-s-6">
+                    <div class="block">
+                        <img src="img/flags.jpg" alt="">
+                        <div class="description">
+                            <h3>Экономическая география</h3>
+                            <p>Изучает распределение природных и человеческих ресурсов, а также их влияние на экономическое развитие стран и регионов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col-s-6">
+                    <div class="block">
+                        <img src="img/social.jpg" alt="">
+                        <div class="description">
+                            <h3>Социальная география</h3>
+                            <p>Исследует взаимодействие общества и природной среды, а также влияние географических факторов на развитие</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col-s-6">
+                    <div class="block">
+                        <img src="img/policy.jpg" alt="">
+                        <div class="description">
+                            <h3>Политическая география</h3>
+                            <p>Изучает политические системы и их влияние на территоральное разделение Земли, а также вопросы границ и меж- отношений</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="founder">
+            <h2>Основатель Географии</h2>
+            <div class="blocks">
+                <div class="col-4 col-s-12">
+                    <div class="block">
+                        <img src="img/Eratosthenes.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-8 col-s-12">
+                    <div class="block">
+                        <div class="description">
+                            <p>География как наука имеет долгую и интересную историю. Одним из важнейших основателей географии считается
+                                <strong>Эратосфен</strong>, древнегреческий ученый, который первым предложил метод измерения диаметра
+                                Земли и ввел термин "география". Его труд является важным вкладом в развитие науки о Земле и ее
+                                разнообразии.</p>
+                        </div>
+                        <p><strong>Вклад Эратосфена:</strong></p>
+                        <div class="contribution">
+                            <ul>
+                                <li>Измерил окружность Земли с удивительной точностью для своего времени.</li>
+                                <li>Разработал систему координат, основанную на широте и долготе.</li>
+                                <li>Создал карту известных территорий, которая включала многие страны и моря.</li>
+                                <li>Использовал концепцию "параллелей" и "меридианов" для исследования Земли.</li>
+                            </ul>
+                        </div>
+                        <div class="wikipedia" id="wikipedia">
+                            <p><strong>Известные труды Эратосфена:</strong></p>
+                            <p><a href="https://ru.wikipedia.org/wiki/Эратосфен" target="_blank">История и вклад Эратосфена в
+                                    географию</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="earth">
+            <h2>О Земле</h2>
+            <img src="img/explore-beach.jpg" alt="" style="width: 100%; object-fit: cover;">
+            <h1>Население Земли</h1>
+            <div id="description">
+                <div class="col-4 col-s-6">
+                    <div class="description">8 млрд</div>
+                    <p>Численность</p>
+                    <p>Население Земли постоянно растет.</p>
+                </div>
+                <div class="col-4 col-s-6">
+                    <div class="description">50%</div>
+                    <p>Городское Население</p>
+                    <p>Более половины людей живет в городах.</p>
+                </div>
+                <div class="col-4 col-s-6">
+                    <div class="description">5</div>
+                    <p>Самые Населенные</p>
+                    <p>Китай, Индия, США, Индонезия, Пакистан.</p>
+                </div>
+            </div>
+            <div class="earth" style="background:url('https://in-space.ru/wp-content/uploads/2017/11/stars_milky_way_sun.jpg');background-position: center center;height:630px; margin-top: 20px;">
+                <iframe src="https://in-space.ru/planet/earth.html" width="100%" height="100%"></iframe>
+                </div>
+                <h1>Интересные факты о Земле</h1>
+                <ul type="square">
+                    <li><p>Земля является наиболее исследованной планетой Солнечной системы и единственной обитаемой планетой из известных науке.</p></li>
+                    <li><p>Земля самая плотная планета Солнечной системы.</p></li>
+                    <li><p>Земля образовалась из солнечной туманности около 4,5 миллиарда лет назад.</p></li>
+                    <li><p>Гравитационное воздействие Луны на Землю является причиной возникновения океанских приливов.</p></li>
+                    <li><p>Землю населяют около 8,7 миллиона видов живых существ, и человек – один из них.</p></li>
+                    <li><p>Поверхность планеты постоянно изменялась: континенты появлялись и разрушались, перемещались по поверхности, то собираясь в суперконтинент, то расходясь на изолированные материки.</p></li>
+                    <li><p>Падение на Землю астероидов диаметром в несколько тысяч километров представляет опасность ее разрушения, однако все наблюдаемые тела для этого слишком малы и опасны только для биосферы.</p></li>
+                    <li><p>Впервые Земля была сфотографирована из космоса в 1959 году космическим аппаратом «Explorer 6».</p></li>
+                    <li><p>Первым человеком, увидевшим Землю из космоса, стал в 1961 году Юрий Гагарин.</p></li>
+                    <li><p>Из открытого космоса и с планет, расположенных за орбитой Земли, можно наблюдать прохождение нашей планеты через фазы, подобные лунным.</p></li>
+                </ul>
+            <div class="blocks">
+                <div class="col-4 col-s-6">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="col-4 col-s-6">
+                    <h3></h3>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="col-4 col-s-6">
+                    <h3></h3>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div id="categories">
+            <h2>Разделы</h2>
+            <div class="categories">
+                <div class="blocks">
+                    <div class="left-side col-6 col-s-12">
+                        <div class="block col-12 col-s-12">
+                                <img src="img/cat3.jpeg" alt="Континенты">
+                                <div class="description">
+                                    <h3>Континенты</h3>
+                                    <p>Откройте для себя континенты: уникальные особенности каждой части Земли</p>
+                                    <a href="./categories/continents/index.html" class="link">Подробнее</a>
+                                </div>
+                        </div>
+                        <div class="bottom col-12">
+                            <div class="block col-6 col-s-6">
+                                <img src="img/quizess.jpg" alt="">
+                                <div class="description">
+                                    <h3>Викторина</h3>
+                                    <p>Проверьте свои знания о географии: сыграйте в нашу викторину!</p>
+                                    <a href="./categories/quiz/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="block col-6 col-s-6">
+                                <img src="img/wonders.jpg" style="object-fit: cover;" alt="">
+                                <div class="description">
+                                    <h3>Гео - факты</h3>
+                                    <p>Факты о Земле, которые вас удивят: географические рекорды и чудеса</p>
+                                    <a href="./categories/geo-facts/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block col-12 col-s-12">
+                            <img src="img/nature.jpg" alt="">
+                            <div class="description">
+                                <h3>Природные чудеса</h3>
+                                <p>Погрузитесь в магию природы: откройте для себя её величие и загадки</p>
+                                <a href="./categories/nature-wonders/index.html" class="link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="block col-6 col-s-6 ">
+                                <img src="img/catastrophes.jpg" alt="">
+                                <div class="description">
+                                    <h3>Природные чудеса</h3>
+                                    <p>Погрузитесь в магию природы: откройте для себя её величие и загадки</p>
+                                    <a href="./categories/nature-wonders/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="block col-6 col-s-6 ">
+                                <img src="img/map.jpg" alt="">
+                                <div class="description">
+                                    <h3>Природнае катастрофы</h3>
+                                    <p>Погрузитесь в магию природы: откройте для себя её величие и загадки</p>
+                                    <a href="./categories/nature-wonders/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side col-6 col-s-12">
+                        <div class="top col-12">
+                            <div class="block col-6 col-s-6">
+                                <img src="img/cat1.jpeg" alt="">
+                                <div class="description">
+                                    <h3>Страны</h3>
+                                    <p>Каждая страна — уникальная: узнайте о самых разных уголках планеты</p>
+                                    <a href="./categories/countries/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="block col-6 col-s-6">
+                                <img src="img/top10.jpeg" alt="">
+                                <div class="description">
+                                    <h3>Топ 10</h3>
+                                    <p>Лучшие из лучших: топ 10 самых захватывающих фактов о планете</p>
+                                    <a href="./categories/TOP-10/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <img src="img/tourism.jpg" alt="">
+                            <div class="description">
+                                <h3>Туризм и путешествие</h3>
+                                <p>Путеводитель по миру: лучшие направления для незабываемых путешествий</p>
+                                <a href="./categories/tourism_and_travel/index.html" class="link">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="block col-6 col-s-6 ">
+                                <img src="img/geo-problems.jpg" alt="" style="object-fit: cover;">
+                                <div class="description">
+                                    <h3>Географические проблемы</h3>
+                                    <p>Погрузитесь в магию природы: откройте для себя её величие и загадки</p>
+                                    <a href="./categories/nature-wonders/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="block col-6 col-s-6">
+                                <img src="img/scientists.jpg" alt="">
+                                <div class="description">
+                                    <h3>Учёные географии</h3>
+                                    <p>Погрузитесь в магию природы: откройте для себя её величие и загадки</p>
+                                    <a href="./categories/nature-wonders/index.html" class="link">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block col-12 col-s-12">
+                            <img src="img/flagss.jpg" alt="">
+                            <div class="description">
+                                <h3>Флаги стран</h3>
+                                <p>Познакомьтесь с флагами мира: яркие символы стран и их значения, узнавайте уникальные символы каждой нации</p>
+                                <a href="./categories/flags/index.html" class="link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="facts">
+            <h2>Интересные факты дня</h2>
+            <div class="fact">
+                <p><i class="fa fa-lightbulb"></i> В Австралии есть озеро Хиллер, которое имеет ярко-розовый цвет воды. Это связано с присутствием микроводорослей, которые дают такой необычный оттенок!</p>
+            </div>
+            <div class="fact">
+                <p><i class="fa fa-lightbulb"></i> В Китае есть место, где встречаются 3 реки — Янцзы, Меконг и Салуин. Это уникальное географическое место называется "Три реки", и оно стало объектом Всемирного наследия ЮНЕСКО!</p>
+            </div>
+            <div class="fact" id="news_block">
+                <p><i class="fa fa-lightbulb"></i> Самая большая пустыня на Земле — это не Сахара, а Антарктида! Это ледяная пустыня, в которой осадков практически не бывает.</p>
+            </div>
+        </div>
+        <div id="news">
+            <h2>Последние новости о Земле</h2>
+            <div class="cards">
+                <div class=" col-3 col-s-6">
+                    <div class="card">
+                        <img src="img/news-1.jpg" alt="">
+                        <div class="description">   
+                        <h3>Землетрясения способствуют образованию золотых самородков</h3>
+                        <p>Землетрясения могут вызывать образование электрического поля в кварце, что приводит к отложению золотых самородков</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col-s-6">
+                    <div class="card">
+                        <img src="img/news-2.jpg" alt="">
+                        <div class="description">   
+                            <h3>В Намибии обнаружено древнее гигантское существо, похожее на саламандру</h3>
+                            <p>На территории Намибии обнаружены окаменелости четырех особей крупного саламандроподобного животного</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col-s-6">
+                    <div class="card">
+                        <img src="img/news-3.jpg" alt="">
+                        <div class="description">   
+                            <h3>Период ослабления магнитного поля Земли повлиял на эволюции жизни</h3>
+                            <p>Ослабленное магнитное поле, возможно, позволяло большему количеству водорода улетучиваться в космос.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col-s-6">
+                    <div class="card">
+                        <img src="img/news-4.jpg" alt="">
+                        <div class="description">   
+                            <h3>Прямая трансляция полного солнечного затмения 8 апреля</h3>
+                            <p>8 апреля 2024 года произошло полное солнечное затмение с наибольшей зоной видимости в Мексике, Соединенных Штатах и на островах в Тихом океане.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="vocabularies">
+            <h2>Словарь терминов</h2>
+            <div class="block">
+                <h3><i class="fa fa-compass"></i> Меридиан</h3>
+                <p>Воображаемая линия, соединяющая два полюса Земли. Меридианы используются для измерения долготы и нахождения точек на земной поверхности.</p>
+            </div>
+            <div class="block">
+                <h3><i class="fa fa-map-pin"></i> Топография</h3>
+                <p>Наука о географических формах Земли и их отображении на картах. Включает рельеф, водные ресурсы и другие природные особенности.</p>
+            </div>
+            <div class="block">
+                <h3><i class="fa fa-snowflake"></i> Полярный круг</h3>
+                <p id="vocabulary">Воображаемая линия, проходящая на широте 66,5° северной и южной широты. За полярным кругом наблюдается полярный день и полярная ночь.</p>
+            </div>
+            <div class="block">
+                <h3><i class="fa fa-water"></i> Фьорд</h3>
+                <p>Узкий морской залив с крутыми берегами, часто возникший в результате ледниковой деятельности. Пример: Норвегия — страна с множеством фьордов.</p>
+            </div>
+            <div class="block">
+                <h3><i class="fa fa-map"></i> Геодезия</h3>
+                <p>Наука, изучающая измерения и отображение земной поверхности, включая определение размеров и формы Земли.</p>
+            </div>
+            <div class="block">
+                <h3><i class="fa fa-mountain"></i> Плато</h3>
+                <p>Плоская или слегка наклоненная область земли, которая резко обрывается с одной или нескольких сторон, часто расположенная на значительной высоте.</p>
+            </div>
+                <div class="nav">
+                    <a href="#vocabulary" class="active">1</a>
+                    <a href="#vocabulary">2</a>
+                    <a href="#vocabulary">3</a>
+                    <a href="#vocabulary">4</a>
+                    <a href="#vocabulary">5</a>
+                </div>
+            </div>
+        </div>
+        <div id="sources">
+            <h2>Полезные ресурсы</h2>
+            <div class="blocks">
+            <div class="left-side col-5 col-s-12">
+                <div class="block">
+                    <a href="https://www.worldatlas.com" target="_blank">
+                        <h3>World Atlas</h3>
+                        <p>Подробные карты мира, факты и статистика по странам.</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="https://www.britannica.com" target="_blank">
+                        <h3>Encyclopedia Britannica</h3>
+                        <p>Точное и авторитетное содержание по географии и культуре.</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="https://www.nationalgeographic.com" target="_blank">
+                        <h3>National Geographic</h3>
+                        <p>Исследования природы, истории, культуры и экологии мира.</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="https://www.merriam-webster.com/dictionary/geography" target="_blank">
+                        <h3>Geography Dictionary</h3>
+                        <p>Полный словарь географических терминов.</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="https://www.weather.com" target="_blank">
+                        <h3>Weather.com</h3>
+                        <p>Прогнозы погоды и информация о климатических зонах.</p>
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="https://www.un.org/en/" target="_blank">
+                        <h3>United Nations</h3>
+                        <p>Информация о странах и международных организациях.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="right-side col-7 col-s-12">
+                    <div class="blocks">
+                        <div class="block col-6 col-s-6">
+                            <i class="fa fa-book"></i>
+                            <h3>География мира</h3>
+                            <p>Полное руководство по географии всех континентов с картами и иллюстрациями.</p>
+                        </div>
+                        <div class="block col-6 col-s-6">
+                            <i class="fa fa-book"></i>
+                            <h3>История Земли</h3>
+                            <p>Книга о происхождении планеты, эволюции ландшафтов и создании природных объектов.</p>
+                        </div>
+                        <div class="block col-6 col-s-6">
+                            <i class="fa fa-book"></i>
+                            <h3>Климат и погода</h3>
+                            <p>Углубленное изучение глобальных климатических процессов и их воздействия на планету.</p>
+                        </div>
+                        <div class="block col-6 col-s-6">
+                            <i class="fa fa-book"></i>
+                            <h3>Путеводитель по миру</h3>
+                            <p>Обзор самых интересных туристических направлений по всему миру.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="facts">
+            <h2>Знаете ли вы?</h2>
+            <div class="block">
+                <p id="fact"><i class="fa fa-lightbulb"></i> Экватор проходит через 13 стран, включая Эквадор, Бразилию и Индонезию!</p>
+            </div>
+            <div class="block">
+                <p><i class="fa fa-lightbulb"></i> Самая высокая гора на Земле — это не Эверест, а гора Маунт-Чимборасо в Эквадоре. Из-за выпуклой формы Земли ее вершина находится дальше от центра Земли!</p>
+            </div>
+            <div class="block">
+                <p><i class="fa fa-lightbulb"></i> В Дании есть остров, на котором всего 1 житель — остров Линдхольм. Это один из самых маленьких населенных островов в мире.</p>
+            </div>
+            <div class="block">
+                <p><i class="fa fa-lightbulb"></i> В мире есть место, где не бывает ночи — это архипелаг Шпицберген в Норвегии, где летом солнце не заходит за горизонт!</p>
+            </div>
+            <div class="block">
+                <p><i class="fa fa-lightbulb"></i> В Африке находится самое большое в мире горячее озеро — озеро Вектор в Уганде, которое постоянно испаряет воду, нагревая воздух.</p>
+            </div>
+            <div class="block">
+                <p><i class="fa fa-lightbulb"></i> Самый длинная река в мире — это река Амазонка в Южной Америке, длина которой составляет около 7050 километров!</p>
+            </div>
+            <div class="nav" id="faqs">
+                <a href="#fact" class="active">1</a>
+                <a href="#fact">2</a>
+                <a href="#fact">3</a>
+                <a href="#fact">4</a>
+                <a href="#fact">5</a>
+            </div>
+        </div>
+        <div id="faq">
+            <h2>Вопросы и ответы</h2>
+            <div class="question">Что такое география?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">География - это наука, изучающая поверхность Земли, её природные процессы климат, ландшафты, а также взаимодействие человека с окружающей средой.</div><hr>
+            <div class="question">Почему важно изучать географию?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Изучение географии помогает понять, как устроен наш мир, как природа и климат влияют на жизнь людей, а также как мы можем сохранить окружающую среду.</div><hr>
+            <div class="question">Почему в пустынях такие высокие температуры днем но холодно ночью?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Песчаные пустыни плохо удерживают тепло: днем они быстро нагреваются от солнца, а ночью так же быстро остывают из-за отсутствия облаков и влаги.</div><hr>
+            <div class="question">Какой самый высокий водопад в мире?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Самый высокий водопад — Анхель в Венесуэле, его высота составляет 979 метров.</div><hr>
+            <div class="question">Что такое экосистема и почему она важна для планеты ?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Экосистема - это совокупность живых организмов, взаимодействующих друг с другом и с окружающей средой.</div><hr>
+            <div class="question">Как глобальное потепление может влиять на Землю ?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Глобальное потепление приводит к изменению климата, повышения уровня мирового океана, учеличения числа экстремальных погодных явлений, таких как ураганы и засухи.</div><hr> 
+            <div class="question">В какой стране больше всего вулканов?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Больше всего вулканов находится в Индонезии — более 120 активных вулканов.</div><hr>
+            <div class="question">Сколько стран в мире?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">В мире всего  195 стран.</div><hr>
+            <div class="question">Где находится самая длинная река в мире?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Самая длинная река — Нил, протяженность которого составляет около 6650 км, и он протекает через 11 стран Африки.</div><hr>
+            <div class="question">Какая самая маленькая страна на планете?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Самая маленькая страна по площади это - Ватикан</div><hr>
+            <div class="question">Какая страна в мире самая старая?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Египет - старейшая страна в мире, если принять ее основание до н.э.</div><hr>
+            <div class="question">Можно ли путешествовать в Антарктиду?<i class="fa-solid fa-chevron-down"></i></div>
+            <div class="answer">Да, Антарктида доступна для туристов, однако поездка туда ограничены и регулируются.</div><hr>
+        </div>
+        <br><br>
+        <div id="end">
+            <p>География - это не только наука о Земле, но и ключ к пониманию нашего взаимодействия с природой, ресурсами и обществом.</p>
+        </div> 
+    </article>
+    <footer>
+        <div class="container">
+            <div class="block col-3 col-s-6 links">
+                <div class="link">
+                <h3>Ссылки</h3>
+                <div><a href="#"> Главная</a></div>
+                <a href="#">Разделы</a>
+                <a href="#">Вопросы  и ответы</a>
+                <a href="#">Фотогаларея</a>
+                <a href="#">Викторина</a>
+                <a href="#">Гео-факты</a>
+                <a href="#">Об авторе</a></div>
+            </div><div class="block col-3 col-s-6">
+                <h3>Контакты</h3>
+                <div class="info">
+                    <div class="address">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot ico"></i>
+                        </div>
+                        <div class="description"><h4>Б.Гафуровский район:</h4>
+                        <p>дж.Гозиён</p></div>
+                    </div>
+                    <div class="email">
+                        <div class="icon">
+                        <i class="fa-regular fa-envelope ico"></i>
+                        </div>
+                        <div class="description"><h4>Email:</h4>
+                        <p>rustam@gmail.com</p></div>  
+                    </div>
+                    <div class="tel">
+                        <div class="icon">
+                        <i class="fa-solid fa-phone ico"></i>
+                        </div>
+                        <div class="description"><h4>Телефон:</h4>
+                        <p>+992 99 009 10 30</p></div>
+                    </div><div class="social-media">
+                <a href="https://www.instagram.com/_rustamjon_47_04_?igsh=NTMxaTRvM3MwZ2V3" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/ItRunTJ?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://t.me/call_center_tj_bot" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://wa.me/qr/Y7DGH6PERLAIG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+                </div>
+            </div>
+            <div class="block col-6 col-s-12">
+                <h2>Обратная связь</h2>
+                <form action="#">
+                    <div class="text col-12 col-s-12">
+                        <input type="text" placeholder="Имя" required>
+                        <input type="email" placeholder="Почта" required>
+                    </div>
+                    <input type="text" name="" id="" placeholder="Тема обсуждения" class="col-12 col-s-12" required>
+                    <textarea name="" placeholder="Сообщение" id="" class="col-12 col-s-12" required></textarea>
+                    <div class="btn"><button>Отправить сообщение</button></div>
+                </form>
+            </div>
+        </div>
+        <div class="rights">
+            Copyright © GeoStudy Все права защищены.
+        </div>
+        <div class="back-to-top">
+            <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        let abc = document.querySelectorAll(".question");
+        let ull = document.querySelectorAll(".answer");
+        abc.forEach((a, i) => {
+            a.addEventListener('click', () => {
+                faq(ull[i])
+            })
+        });
+
+        function faq(ul){
+            if(ul.style.display == "block"){
+                ul.style.display = "none";
+            }
+            else {
+                ul.style.display = "block";
+            }
+        }
+
+        let abc1 = document.querySelector(".menu");
+        let ul = document.querySelector("header ol");
+        abc1.addEventListener("click", menu);
+
+        function menu(){
+            if(ul.style.display == "block"){
+                ul.style.display = "none";
+            }
+            else {
+                ul.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
